@@ -1,0 +1,475 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CDN-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.0.min.js"></script>
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
+    <script src="https://kit.fontawesome.com/80a2be1de2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <!-- STYLE -->
+    <link rel="stylesheet" href="./css/index.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@200;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    
+    <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;1,300;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- IMPORTED JS -->
+    <script src="js/particle.js"></script>
+    <script src="js/webAutoSlide.js"></script>
+    <script src="js/mobileSlide.js"></script>
+    <script src="js/homeAbout.js"></script>
+    <script src="js/fullpage.js"></script>
+
+    <title>Cho Su Jeong WEB PORTFOLIO</title>
+    <link href="img/KakaoTalk_20231124_151121191.png" type="image/x-icon" rel="shortcut icon">
+
+
+    <script>
+        $(function () {
+            $(".mouse").click(function () {
+                var offset = $("#first_port").offset();
+                $("html, body").animate({ scrollTop: offset.top }, 1000);
+            });
+        });
+    </script>
+
+
+    
+</head>
+
+<body>
+    <ul id="menu">
+        <li data-menuanchor="anchor1"><a href="#anchor1"><i class="fa-solid fa-house"></i></a><span>Home</span></li>
+        <li data-menuanchor="anchor2"><a href="#anchor2"><i class="fa-solid fa-shirt"></i></a><span>Project
+                01</span></li>
+        <li data-menuanchor="anchor3"><a href="#anchor3"><i class="fa-solid fa-book-open"></i></a><span>Project 02</span>
+        </li>
+        <li data-menuanchor="anchor4"><a href="#anchor4"><i class="fa-solid fa-music"></i></a><span>Project 03</span>
+        </li>
+        <li data-menuanchor="anchor5"><a href="#anchor5"><i class="fa-solid fa-store"></i></a><span>Project
+                04</span></li>
+        <li data-menuanchor="anchor6"><a href="#anchor6"><i class="fa-solid fa-rectangle-list"></i></a><span>Project
+                05</span></li>
+        <li data-menuanchor="anchor7"><a href="#anchor7"><i class="fa-solid fa-address-card"></i></a><span>About
+                Me</span></li>
+    </ul>
+    <div id="fullpage">
+        <!-- ---------- Section 01 --------- -->
+        <div class="section section-01">
+            <!-- particles.js container -->
+            <div class="stars">
+            </div>
+            <div class="homeWrap">
+                <div id="homeleft_grid">
+                    <div id="about">
+                        <ul class="about_icon">
+                            <li>
+                                <a href="#">
+                                    <i class="far fa-address-card" aria-hidden="true"></i>
+                                </a>
+                                <ul class="burble">
+                                    <li>조수정 / CHO SU JEONG</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+                                </a>
+                                <ul class="burble">
+                                    <li>010-2027-7287</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="far fa-envelope" aria-hidden="true"></i>
+                                </a>
+                                <ul class="burble">
+                                    <li>anelg107710@naver.com</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <h3>PORTFOLIO</h3>
+                    </div>
+
+                </div>
+                <h1>WEB</h1>
+                <h2>DEVELOPER</h2>
+                <span>HTML / CSS / JAVASCRIPT / JQUERY / OPEN API / JSON / AJAX / RESPONSIVE WEB SITE / REACT /
+                    TYPESCRIPT / MySQL / NODE.JS
+                </span>
+            </div>
+        </div>
+        <!-- ---------- Section 02 --------- -->
+        <div class="section section-02">
+            <div class="bodyWrap">
+                <!-- 좌측 txt -->
+                <div class="txtWrap">
+                    <h1>PROJECT <strong>01</strong></h1>
+                    <h2>COVERNAT</h2>
+                    <h4>React Website (Redux / Router)<br>
+                        TypeScript</h4>
+                    <h5>POINT COLOR</h5>
+                    <ul class="color">
+                        <li class="color01"></li>
+                        <li class="color02"></li>
+                        <li class="color03"></li>
+                    </ul>
+                    <p>
+                        현대적인 소재와 룩으로 주목을 받고있는.<br>
+                        패션 브랜드 사이트 "COVERNAT"입니다. <br><br>
+
+                        스크롤이 내려가도 상단 네비게이션 이동이 용이하도록<br>
+                        Sticky Menu를 사용하였습니다.<br><br>
+
+                        여성복과 남성복을 구분하여 상품을 슬라이드 형식으로 <br>
+                        나열함으로서 주목도를 높이는 것이 포인트입니다.<br><br>
+
+                        TypeScript를  활용하여 JavaScript에서 일어날 수 있는<br>
+                        버그의 15%를 줄였습니다.<br><br>
+
+                        Sub Page를 쇼핑몰 형식으로 제작하였습니다.
+                    </p>
+                    <a href="https://crystal960906.github.io/covernat/" target="_blank"
+                        class="btnPage btnMain">MAIN PAGE</a>
+                </div>
+                <!-- 우측 img -->
+                <div class="imgWrap">
+                    <div class="bodyimg">
+                        <ul id="section02_Wconcept">
+                            <li style="margin-top: 0px;">
+                                <img src="img/covernat_main.png" alt="web1 Wconcept">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bhoverbox" id="Wconcept_box"
+                        onclick="window.open('https://crystal960906.github.io/covernat/')">
+                        <i class="fas fa-plus" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ---------- Section 03 --------- -->
+        <div class="section section-03">
+            <div class="bodyWrap">
+                <!-- 좌측 txt -->
+                <div class="txtWrap">
+                    <h1>PROJECT <strong>02</strong></h1>
+                    <h2>ALADIN</h2>
+                    <h4>Book Store (Open API/Json)<br>
+                    <h5>POINT COLOR</h5>
+                    <ul class="color">
+                        <li class="color01"></li>
+                        <li class="color02"></li>
+                        <li class="color03"></li>
+                    </ul>
+                    <p>
+                        국내 도서 사이트"알라딘"입니다.<br><br>
+
+                        페이지 내의 도서 내용들은 KaKao에서 제공하는 <br>
+                        Open API를 사용하였습니다.<br><br>
+
+                        도서사이트가 많은 정보를 담고 있는 점을 고려하여 <br>
+                        복잡한 레이아웃을 간결하게 재해석했습니다.<br><br>
+
+                        jQuery를 활용하여 네비게이션, 슬라이드를 접목시킨<br>
+                        상품 리스트 등의 다양한 인터렉션 요소를 배치하였습니다.<br><br>
+
+                        도서를 구매할 수 있는 Sub Page도 함께 제작하였습니다.
+                    </p>
+                    <a href="https://crystal960906.github.io/1016_3/#" target="_blank"
+                        class="btnPage btnMain">MAIN PAGE</a>
+                    <a href="https://crystal960906.github.io/1016_3/sub.html" target="_blank"
+                        class="btnPage btnSub">SUB PAGE</a>
+                    </div>
+                <!-- 우측 img -->
+                <div class="imgWrap">
+                    <div class="bodyimg">
+                        <ul id="section03_aladin">
+                            <li style="margin-top: 0px;">
+                                <img src="img/aladin_main.png" alt="web2 aladin">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bhoverbox" id="aladin_box"
+                        onclick="window.open('https://crystal960906.github.io/1016_3/#')">
+                        <i class="fas fa-plus" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ---------- Section 04 --------- -->
+        <div class="section section-04">
+            <div class="bodyWrap">
+                <!-- 좌측 txt -->
+                <div class="txtWrap">
+                    <h1>PROJECT <strong>03</strong></h1>
+                    <h2>Neo Beat</h2>
+                    <h4>Responsive Website</h4>
+                    <h5>POINT COLOR</h5>
+                    <ul class="color">
+                        <li class="color01"></li>
+                        <li class="color02"></li>
+                        <li class="color03"></li>
+                    </ul>
+                    <p>
+                        전세계 음원 사이트 "Neo Beat"의 홍보 사이트입니다.<br><br>
+
+                        모바일, 태블릿, PC 사용자에 맞게 반응할 수 있도록 <br>
+                        미디어쿼리를 사용하여 반응형 웹사이트로 제작되었습니다.<br><br>
+
+                        팝아트 색감의 사진을 사용하여<br>
+                        통통튀고 화려한 분위기를 연출합니다.<br><br>
+
+                        블로그 형식의 Sub Page를 함께 제작하였습니다.
+                    </p>
+                    <a href="https://crystal960906.github.io/chapter2/" target="_blank"
+                        class="btnPage btnMain">MAIN PAGE</a>
+                    <a href="https://crystal960906.github.io/chapter2/Sub_index.html" target="_blank"
+                        class="btnPage btnSub">SUB PAGE</a>
+                </div>
+                <!-- 중앙 mobile img -->
+                <div class="pofomobile">
+                    <div class="pofomobile_box"
+                        onclick="window.open('https://crystal960906.github.io/chapter2/')">
+                        <div class="swiper_wrapper">
+                            <div><img src="img/Neobeat_main_01.png" alt="#"></div>
+                            <div><img src="img/Neobeat_main_02.png" alt="#"></div>
+                            <div><img src="img/Neobeat_main_03.png" alt="#"></div>
+                            <div><img src="img/Neobeat_main_04.png" alt="#"></div>
+                            <div><img src="img/Neobeat_main_05.png" alt="#"></div>
+                            <div><img src="img/Neobeat_main_06.png" alt="#"></div>
+                            <div><img src="img/Neobeat_main_07.png" alt="#"></div>
+                            <div><img src="img/Neobeat_main_08.png" alt="#"></div>
+                            <div><img src="img/Neobeat_main_09.png" alt="#"></div>
+                            <div><img src="img/Neobeat_main_10.png" alt="#"></div>
+                            <div><img src="img/Neobeat_main_11.png" alt="#"></div>
+                            <div><img src="img/Neobeat_main_12.png" alt="#"></div>
+                            <div><img src="img/Neobeat_main_13.png" alt="#"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 우측 img -->
+                <div class="imgWrap">
+                    <div class="bodyimg">
+                        <ul id="section04_NeoBeat">
+                            <li style="margin-top: 0px;">
+                                <img src="img/Neobeat_main.png" alt="web3 NeoBeat">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bhoverbox" id="NeoBeat_box"
+                        onclick="window.open('https://crystal960906.github.io/chapter2/')">
+                        <i class="fas fa-plus" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ---------- Section 05 --------- -->
+        <!-- ---------- Section 05 --------- -->
+        <div class="section section-05">
+            <div class="bodyWrap">
+                <!-- 좌측 txt -->
+                <div class="txtWrap">
+                    <h1>PROJECT <strong>04</strong></h1>
+                    <h2>W concept</h2>
+                    <h4>Shopping Mall (Json / Ajax)</h4>
+                    <h5>POINT COLOR</h5>
+                    <ul class="color">
+                        <li class="color01"></li>
+                        <li class="color02"></li>
+                        <li class="color03"></li>
+                    </ul>
+                    <p>
+                        디자이너 편집샵 사이트 "W concept" 입니다.<br><br>
+
+                        제품이 돋보일 수 있는 절제된 레이아웃으로 구성하였으며,<br>
+                        이미지에 포인트를 주어 단조롭지 않으며<br>
+                        상품이 눈에 잘 띄도록 제작하였습니다. <br><br>
+
+                        반복되는 다양한 상품 이미지는 JSON, AJAX을 통해 <br>
+                        배치하여 코드의 가독성을 높였습니다.<br><br>
+
+                        상단 네비게이션의 카테고리를 통해 <br>
+                        세부 품목들을 쉽게 찾을 수 있도록 제작하였습니다. <br><br>
+
+                        상품 구매를 위한 Sub Page도 함께 제작하였습니다.
+                    </p>
+                    <a href="https://crystal960906.github.io/0925_01/index.html" target="_blank"
+                        class="btnPage btnMain">MAIN PAGE</a>
+                    <a href="https://crystal960906.github.io/0925_01/sub.html" target="_blank"
+                        class="btnPage btnSub">SUB PAGE</a>
+                </div>
+                <!-- 우측 img -->
+                <div class="imgWrap">
+                    <div class="bodyimg">
+                        <ul id="section05_wconcept">
+                            <li style="margin-top: 0px;">
+                                <img src="img/Wconcept_main.png" alt="web4 wconcept">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bhoverbox" id="wconcept_box"
+                        onclick="window.open('https://crystal960906.github.io/0925_01/index.html')">
+                        <i class="fas fa-plus" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section section-06">
+            <div class="bodyWrap">
+                <!-- 좌측 txt -->
+                <div class="txtWrap">
+                    <h1>PROJECT <strong>05</strong></h1>
+                    <h2>게시판</h2>
+                    <h4>Community Forum <br> (Node.js / MySQL / REACT / TYPESCRIPT)</h4>
+                    <p>
+                        쇼핑몰 사이트에 주로 있는 상품 문의 게시판입니다. <br><br>
+                        
+                        MySQL로 데이터베이스를 제작한 후 Node.js를 통해<br> 
+                        데이터를 처리하였습니다.<br><br>
+
+                        데이터 베이스의 기본 요소인 CRUD 기능을 구현하였습니다. <br><br>
+
+                        게시글을 각각 조회할 수 있으며 '글쓰기' 버튼을 통해 <br>
+                        새로운 게시글을 작성할 수 있습니다. <br><br>
+
+                        게시글 내에서 글을 수정하거나 삭제하는 기능 또한 <br>
+                        포함되어 있습니다.
+                    </p>
+                    <a href="https://crystal960906.github.io/0925_01/index.html" target="_blank"
+                        class="btnPage btnMain">FRONT</a>
+                    <a href="https://crystal960906.github.io/0925_01/sub.html" target="_blank"
+                        class="btnPage btnSub">SERVER</a>
+                </div>
+                <!-- 우측 img -->
+                <div class="imgWrap">
+                    <div class="bodyimg">
+                        <ul id="section06_board">
+                            <li style="margin-top: 0px;">
+                                <video muted="" autoplay="" loop="">
+                                    <source src="img/forum_build.mp4" type="video/mp4">
+                                    <strong>Your browser does not support the video tag.</strong>
+                                </video>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section section-07">
+            <div class="profileWrap">
+                <div class="profile">
+                    <div class="myphoto">
+                        <div class="profileimg">
+                            <img src="img/face.jpg" alt="profile">
+                        </div>
+                        <div class="profiletxt">
+                            <h3>조수정<em>Cho Su Jeong</em></h3>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th>BIRTH</th>
+                                        <td>1996. 09. 06.</td>
+                                    </tr>
+                                    <tr>
+                                        <th>AGE</th>
+                                        <td>27</td>
+                                    </tr>
+                                    <tr>
+                                        <th>MOBILE</th>
+                                        <td>010-2027-7287</td>
+                                    </tr>
+                                    <tr>
+                                        <th>E-MAIL</th>
+                                        <td>anelg107710@naver.com</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="introtxt">
+                                <h5>WEB Publisher</h5>
+                                <p>트렌디하고 편리한 웹 사이트, 웹 서비스를 개발합니다.<br>
+                                    도전을 좋아하고 경험을 중요시합니다.<br>
+                                    도전과 경험을 토대로 많은 사람들이 편리하게 사용할 수 있는 웹 사이트, 웹 서비스를 제공 하는것이 저의 목표입니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="info">
+
+                    <div class="info_box_top">
+                        <h3>성장하는 개발자</h3>
+                        <img src="img/line_gr.png">
+                    </div>
+
+                    <div class="info_box_bot">
+                        <div style="margin-top:-50px;">
+                            <h4>EDUCATION</h4>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th>2015.03&nbsp;&nbsp;</th>
+                                        <td>수원공업고등학교 졸업</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="info_box_training">
+                            <h4>TRAINING</h4>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>수원이젠컴퓨터아카데미<br>
+                                            프론트엔드 개발 및 실무프로젝트 구현 과정 (2023년 12월)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="info_box_skills">
+                            <h4>SKILLS</h4>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>HTML / CSS / JAVASCRIPT / JQUERY / RESPONSIVE WEB /<br> JSON / AJAX / OPEN
+                                            API / TYPESCRIPT / REACT / MySQL / NODE.JS</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        new fullpage("#fullpage", {
+            sectionsColor: [],
+            verticalCentered: false,
+            scrollBar: true,
+            anchors: ['anchor1', 'anchor2', 'anchor3', 'anchor4', 'anchor5', 'anchor6', 'anchor7'],
+            menu: '#menu',
+        });
+    </script>
+</body>
+
+</html>
